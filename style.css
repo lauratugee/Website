@@ -1,0 +1,319 @@
+/*index page */
+header{
+   color: pink;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: larger;
+   border:2px;
+   padding: 30px;
+}
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+navbar a{
+    color:palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+}
+
+
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+nav ul{
+    list-style-type:
+    padding: 0;
+    margin: 0;
+    display:contents;
+}
+
+nav ul li{
+    margin-right:0;
+    
+}
+nav ul li{
+    margin-right: 0;
+}
+nav ul li a{
+    text-decoration:overline;
+    color: bisque;
+}
+
+
+footer{
+    background-color:black;
+    color:bisque;
+    text-align: center;
+    padding:20px;
+}
+
+.product-item{
+    border: 1px slateblue;
+    border-radius:5px;
+    padding: 20px;
+    margin: bottom 20px;
+    text-align: center;
+}
+.product-item img{
+     max-width:fit-content;
+     height: auto;
+     margin-bottom :10px;
+           }
+.product-item h2{
+    font-size:20px;
+    margin-bottom: 10px;
+
+}
+.product-item h3{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.product-item h4{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.product-item h5{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.product-item p{
+    margin-bottom: 10px;
+}
+.price{
+    font-weight: bold;
+    color:blue;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:blueviolet;
+    color: bisque;
+    text-align: center;
+    padding: 20px ;
+}
+main{
+    padding: 20px;
+}
+.About-section{
+    margin-bottom: 30px;;
+}
+.About-section h2{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.About-section p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.About-section img{
+    display:contents;
+    margin: 0 auto 15px;
+    max-width: 100%;
+    height:auto;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    font-size:medium ;
+}
+main{
+    padding: 20px;
+}
+.contact-section{
+    margin-bottom: 30px;
+}
+.contact-section h2{
+    font-size: small;
+    margin-bottom: 15px;
+}
+.contact-section p{
+    margin-bottom: 10px;
+    line-height: normal;
+}
+.contact-form{
+    max-width: fit-content;
+    margin: auto;
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: small;
+    border:1px salmon;
+    border-radius: 5px;
+}
+.form-group textarea{
+    resize: vertical;
+}
+button[type="Submit"]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: smaller;
+    color: aquamarine;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+header{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 20ox;
+}
+header h1{
+    font-size:large;
+}
+main{
+    padding:20px;
+}
+.terms-section{
+    margin-bottom: 30px;
+}
+.terms-section h2,h3,h4,h5{
+    font-size:medium;
+    margin-bottom: 10px;
+}
+.terms-section p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: black;
+    color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+header h1{
+    font-size: large;
+}
+main{
+    padding:20px;
+}
+.faq-section{
+    margin-bottom: 30px;
+}
+.faq-item{
+    margin-bottom: 20px;
+}
+.faq-item h2{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+.faq-item p{
+    margin-bottom: 10px;
+    line-height: 1.5;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color:black;
+    color:bisque;
+    text-align: center;
+    padding: 20px ;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.order-form {
+    max-width: 500px;
+    margin: 0 ;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color:bisque;
+    background-color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color:black;
+}
+
+
+
