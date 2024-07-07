@@ -12,14 +12,19 @@ body{
     line-height: 1.6;
     background-color: black;
 }
-navbar a{
-    color:palevioletred;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
-    text-align: center;
+
+navbar{
+    margin-bottom: 20px;
 }
 
+image container{
+    background-color:greenyellow ;
+    border:2px grey;
+    border-radius: 10px;
+    box-shadow:inset;
+    padding:20px;
 
+}
     width: 85%;
     margin: auto;
     padding: 35px 0;
