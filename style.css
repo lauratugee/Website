@@ -310,8 +310,8 @@ button[type="submit"] {
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    color:bisque;
-    background-color:brown;
+    color:black
+    background-color:antiquewhite;
     border: none;
     border-radius: 5px;
     cursor: pointer;
