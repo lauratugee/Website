@@ -68,10 +68,9 @@ footer{
     text-align: center;
 }
 .product-item img{
-     max-width:fit-content;
+     width: 100%;
      height: auto;
-     margin-bottom :10px;
-           }
+         }         
 .product-item h2{
     font-size:20px;
     margin-bottom: 10px;
