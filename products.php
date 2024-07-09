@@ -19,7 +19,7 @@
         <div class="row">
             <?php
             require_once("Database/db_connect.php");
-            include_on
+             
             <div class="col-md-4">
                 <div class="product-item">
                     <img src="images/7543e1d9946f4be06a78bbd34260a60a.jpg " alt="Product 1">    
