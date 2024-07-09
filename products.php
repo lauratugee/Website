@@ -17,10 +17,33 @@
     </nav>
     <main class="container mt-4">
         <div class="row">
-            <?php
-            require_once("Database/db_connect.php");
-             
-            <div class="col-md-4">
+        <?php 
+    require_once("Database/dp_connection.php");
+
+    if (isset($_POST["buy_product"])) {
+        $prduct_id = $_POST["id"];
+        $prodcut_name = $_POST["name"];
+        $description= $_POST["description"];
+        $price = $_POST["price"];
+        $image_path= $_POST["image path"];
+        
+//INSERT INTO products( product id,name, description, price, ,image path) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]')
+        $sql = "INSERT INTO products (product id, name, description, price, image path) VALUES
+                 ('$prduct_id', '$prodcut_name', '$description', '$price', '$image_path')";
+
+        if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+        } else {
+
+ echo "Error: " . $sql . "<br>" . $conn->error;
+        }
+
+        $conn->close();
+    }
+    ?>
+
+            
+            
                 <div class="product-item">
                     <img src="images/7543e1d9946f4be06a78bbd34260a60a.jpg " alt="Product 1">    
                     <div class="card-body">
